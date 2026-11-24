@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nutrition",
+  "version": "${version}",
+  "name": "Nutrition",
+  "description": "Adds meat and plant nutrition bars with malnutrition penalties.",
+  "authors": [
+    "yzt"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yzt-yhssyt/nutrition",
+    "sources": "https://github.com/yzt-yhssyt/nutrition",
+    "issues": "https://github.com/yzt-yhssyt/nutrition/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nutrition.Nutrition"
+    ]
+  },
+  "mixins": [
+    "nutrition.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "hunger_shield": ">=1.0.0"
+  }
+}
